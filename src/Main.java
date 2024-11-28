@@ -65,6 +65,15 @@ public class Main {
             accumulatedBank = accumulatedBank + money1;
             System.out.println("«Месяц " + month + " сумма накоплений равна " + accumulatedBank + " рублей».");
         }
+        {
+            System.out.println("Задание-10");
+        }
 
+int number=2;
+int sum=0;
+        for (int i = 2; i <= 10; i++) { sum=number*i;
+
+            System.out.println(+number+"*"+i+"="+sum);
+        }
     }
 }

@@ -48,7 +48,7 @@ public class Main {
         {
             System.out.println("Задание-8");
         }
-int money=2900;
+int money=29000;
         int accumulated=0;
         for (int month =1; month <= 12; month++) {accumulated=accumulated+money;
             System.out.println("«Месяц "+month+" сумма накоплений равна "+accumulated+" рублей».");

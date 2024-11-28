@@ -39,6 +39,11 @@ public class Main {
         for (int number = 7; number <= 98; number = number + 7) {
             System.out.println(number);
         }
-
+        {
+            System.out.println("Задание-7");
+        }
+        for (int number = 2; number <= 512; number = number * 2) {
+            System.out.println(number);
+        }
     }
 }

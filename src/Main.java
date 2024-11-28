@@ -45,5 +45,13 @@ public class Main {
         for (int number = 2; number <= 512; number = number * 2) {
             System.out.println(number);
         }
+        {
+            System.out.println("Задание-8");
+        }
+int money=2900;
+        int accumulated=0;
+        for (int month =1; month <= 12; month++) {accumulated=accumulated+money;
+            System.out.println("«Месяц "+month+" сумма накоплений равна "+accumulated+" рублей».");
+        }
     }
 }

@@ -48,10 +48,23 @@ public class Main {
         {
             System.out.println("Задание-8");
         }
-int money=29000;
-        int accumulated=0;
-        for (int month =1; month <= 12; month++) {accumulated=accumulated+money;
-            System.out.println("«Месяц "+month+" сумма накоплений равна "+accumulated+" рублей».");
+        int money = 29000;
+        int accumulated = 0;
+        for (int month = 1; month <= 12; month++) {
+            accumulated = accumulated + money;
+            System.out.println("«Месяц " + month + " сумма накоплений равна " + accumulated + " рублей».");
         }
+        {
+            System.out.println("Задание-9");
+        }
+
+        int money1 = 29000;
+        int accumulatedBank = 0;
+        for (int month = 0; month <= 12; month++) {
+            accumulatedBank = accumulatedBank + accumulatedBank / 100;
+            accumulatedBank = accumulatedBank + money1;
+            System.out.println("«Месяц " + month + " сумма накоплений равна " + accumulatedBank + " рублей».");
+        }
+
     }
 }
